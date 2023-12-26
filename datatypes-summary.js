@@ -11,6 +11,9 @@ const isLoggedIn = false
 const outsideTemp = null
 let userEmail;
 
+const dd=['priya', 143]
+const dr={"priy":90, 'uiu':"uiu"} // dictionary in py, json datatype
+
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
@@ -33,3 +36,25 @@ const myFunction = function(){
 
 }
 console.log(typeof anotherId);
+
+
+
+// *******************************************
+// stack (primitive), heap (non primitive)
+let  mygithubname = "Priyanka"
+let anothername = mygithubname
+ anothername = "Sweety"
+console.log(anothername);
+console.log(mygithubname);
+
+let userOne= {
+    email : "user@gmail.com",
+    upi:"user@ybl"
+
+}
+let usertwo= userOne
+
+usertwo.email = "priya@google.com"
+console.log(userOne.email);
+console.log(usertwo.email);
+    
